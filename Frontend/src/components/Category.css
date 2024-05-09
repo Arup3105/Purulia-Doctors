@@ -1,0 +1,19 @@
+.category{
+    padding: 20px;
+    
+}
+.category .label{
+font-size: 2rem;
+}
+
+.category .card{
+    margin-top:25px ;
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.category .card p{
+    padding-top: 75px;
+}

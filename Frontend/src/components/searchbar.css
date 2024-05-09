@@ -1,0 +1,46 @@
+.searchbar{
+   width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.searchbar input{
+    height: 50px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 4px 10px rgb(170, 170, 170);
+    padding-left: 60px;
+  font-size: 20px;
+}
+.searchbar img{
+    width: 2%;
+    position: absolute;
+    left: 155px;
+}
+
+.searchbar input::placeholder{
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:500px) {
+    .searchbar img{
+        width: 5%;
+        position: absolute;
+        left: 47px;
+    }
+    .searchbar input{
+        height: 40px;
+        width: 80%;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 0px 4px 10px rgb(170, 170, 170);
+    }
+    
+    .searchbar input::placeholder{
+        padding-left: 30px;
+        font-size: 15px;
+    }
+}

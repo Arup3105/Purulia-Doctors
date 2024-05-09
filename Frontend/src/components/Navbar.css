@@ -1,0 +1,9 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    color:rgb(76, 62, 185);
+    border: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    font-size: 2em;
+}
