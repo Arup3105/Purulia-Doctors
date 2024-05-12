@@ -17,7 +17,7 @@
 .searchbar img{
     width: 2%;
     position: absolute;
-    left: 155px;
+    left: 175px;
 }
 
 .searchbar input::placeholder{

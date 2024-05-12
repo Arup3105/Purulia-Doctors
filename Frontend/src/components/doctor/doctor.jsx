@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink, Link } from "react-router-dom";
 import "./doctor.css";
 
 function Doctor() {
@@ -6,7 +7,14 @@ function Doctor() {
 
   return (
     <>
-      <div>Doctor</div>
+      <div className="doctorNav">
+        <Link to="/">
+        <div className="backArrow">
+          {"<"}
+        </div>
+        </Link>
+        <p>DOCTOR</p>
+      </div>
       
         <div className="card-container">
           {img.map((option, index) => (
