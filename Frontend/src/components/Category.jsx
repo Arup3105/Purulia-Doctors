@@ -35,7 +35,7 @@ function Category() {
     infinite: true,
     speed: 500,
     slidesToShow: slidesToShow,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     autoplay: true, 
     autoplaySpeed: 3000,
     pauseOnHover: true,

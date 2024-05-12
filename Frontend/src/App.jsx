@@ -1,21 +1,20 @@
 
 import './App.css';
-import Navbar from "./components/Navbar";
-import Utils from "./components/utils";
-import Carousel from "./components/Carousel";
-import SearchBar from "./components/searchbar";
-import Category from "./components/category";
-
+import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
+import Landing from "./components/landing";
+import Doctor from "./components/doctor/doctor";
 function App() {
 
 
   return (
     <>
-      <Navbar></Navbar>
-      <SearchBar></SearchBar>
-      <Utils></Utils>
-      <Carousel></Carousel>
-      <Category></Category>
+    <Router>
+      <Routes> 
+      <Route path="/" element={<Landing/>}></Route>
+      <Route path="/Doctor" element={<Doctor/>}></Route>
+       
+      </Routes>
+    </Router>
     </>
   )
 }

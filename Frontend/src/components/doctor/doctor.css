@@ -1,0 +1,33 @@
+.card-container {
+    display: grid;
+    gap: 15px;
+}
+
+.card-option {
+    height: 60px;
+    width: 120px;
+    padding: 20px;
+    border: 1px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(6, 1fr); /* 6 columns for desktop */
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Auto-fill columns for mobile */
+    }
+
+    .card-option{
+        height: 60px;
+    width: 80px;
+    }
+}
