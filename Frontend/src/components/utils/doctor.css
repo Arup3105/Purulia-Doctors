@@ -1,4 +1,4 @@
-.doctorNav{
+.cardNav{
     display: flex;
     justify-content: center;
     color:#fff;
@@ -7,22 +7,22 @@
     padding: 30px;
     font-size: 2em;
 }
-.doctorNav .backArrow{
+.cardNav .backArrow{
     position: absolute;
     left: 40px;
 }
 
-.doctorNav a{
+.cardNav a{
     text-decoration: none;
 }
-.doctorNav a:visited {
+.cardNav a:visited {
     color: inherit; 
     text-decoration: none;
   }
 
 .card-container {
     display: grid;
-    gap: 15px;
+    gap: 10px;
 }
 
 .card-option {
@@ -46,10 +46,12 @@
 @media screen and (max-width: 767px) {
     .card-container {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Auto-fill columns for mobile */
+        gap: 0px;
     }
 
     .card-option{
+        margin: 10px 40px;
         height: 60px;
-    width: 80px;
+        width: 80px;
     }
 }

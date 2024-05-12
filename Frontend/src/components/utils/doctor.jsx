@@ -7,7 +7,7 @@ function Doctor() {
 
   return (
     <>
-      <div className="doctorNav">
+      <div className="cardNav">
         <Link to="/">
         <div className="backArrow">
           {"<"}

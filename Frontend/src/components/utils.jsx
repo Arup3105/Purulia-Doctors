@@ -15,14 +15,18 @@ function utils(){
                 </div>
             </div>
             </Link>
+            <Link to="/Clinic">
             <div className="clinic">
                 <FontAwesomeIcon icon={faClinicMedical} style={{ fontSize: "1.5em" }}/>
                 <div>Clinic</div>
             </div>
+            </Link>
+            <Link to="/Bloodbank">
             <div className="blood">
                 <FontAwesomeIcon icon={faTint} style={{ fontSize: "1.5em" }} />
                 <div>Blood Bank</div>
             </div>
+            </Link>
         </div>
     )
 }
