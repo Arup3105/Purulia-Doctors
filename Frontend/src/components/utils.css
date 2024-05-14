@@ -19,10 +19,11 @@
 }
 
 .utils a{
+    color: white;
     text-decoration: none;
 }
 .utils a:visited {
-    color: inherit; 
+    color: white; 
     text-decoration: none;
   }
 
