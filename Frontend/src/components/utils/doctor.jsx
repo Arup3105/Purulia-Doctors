@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import "./doctor.css";
 
 function Doctor() {
-  const img = ["a", "b", "c", "d", "e", "f","g", "h", "i", "j", "k"];
+  const img = {a:"a", b:"b", c:"c", d:"d", e:"e", f:"f",g:"g", h:"h", i:"i", j:"j", k:"k"};
 
   return (
     <>
@@ -17,9 +17,12 @@ function Doctor() {
       </div>
       
         <div className="card-container">
-          {img.map((option, index) => (
-            <div key={index} className="card-option">
-              <p>{option}</p>
+        {Object.entries(img).map(([key, value]) => (
+          <div classname = "card-all">
+            <div key={key} className="card-option">
+              <p>{value}</p>
+            </div>
+            <p>{key}</p>
             </div>
           ))}
         </div>

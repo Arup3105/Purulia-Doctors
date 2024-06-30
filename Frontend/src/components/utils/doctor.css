@@ -20,9 +20,11 @@
     text-decoration: none;
   }
 
+
 .card-container {
     display: grid;
     gap: 10px;
+    text-align: center;
 }
 
 .card-option {
